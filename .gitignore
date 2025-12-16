@@ -39,3 +39,6 @@
 
 # debug information files
 *.dwo
+
+# firmware for qemu 
+*OVMF*.fd
