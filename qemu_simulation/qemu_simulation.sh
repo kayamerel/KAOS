@@ -1,0 +1,11 @@
+qemu-system-x86_64 \
+-drive file=disk.img,format=raw,media=disk \
+-drive if=pflash,format=raw,unit=0,file=RELEASEX64_OVMF_CODE.fd \
+-drive if=pflash,format=raw,unit=1,file=RELEASEX64_OVMF_VARS.fd \
+-m 512M \
+-vga std \
+-machine q35 \
+-cpu max,host-phys-bits=on \
+-rtc base=localtime \
+-net none \
+-no-reboot

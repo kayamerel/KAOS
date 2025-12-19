@@ -42,3 +42,6 @@
 
 # firmware for qemu 
 *OVMF*.fd
+
+# macOS system files
+.DS_Store
