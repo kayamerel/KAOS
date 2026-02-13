@@ -15,7 +15,7 @@ typedef int32_t INT32;
 typedef uint32_t UINT32;
 typedef int64_t INT64;
 typedef uint64_t UINT64;
-typedef char CHAR8;
+typedef uint8_t CHAR8;
 typedef char16_t CHAR16;
 typedef void VOID;
 
@@ -52,7 +52,6 @@ typedef union EFI_IP_ADDRESS {
 
 typedef const CONST;
 
-// TO DO: UEFI system tables
 
 
 
